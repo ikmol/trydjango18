@@ -29,8 +29,8 @@ ALLOWED_HOSTS = []
 
 # Send email
 EMAIL_HOST = 'smtp.gmail.com'
-EMAIL_HOST_USER = 'ikmolife@gmail.com'
-EMAIL_HOST_PASSWORD = '11kbgyzedfcsgjk'
+EMAIL_HOST_USER = 'youremail@gmail.com'
+EMAIL_HOST_PASSWORD = 'pass'
 EMAIL_PORT = 587
 EMAIL_USE_TLS = True
 
