@@ -22,7 +22,7 @@ if not settings.DEBUG:
     # See https://docs.djangoproject.com/en/1.8/howto/deployment/checklist/
 
     # SECURITY WARNING: keep the secret key used in production secret!
-    SECRET_KEY = '2cpqycq%yp#8it))2fk7o*#(ok0!4djfzod9ea78qkvoes#ewr'
+    SECRET_KEY = '***'
 
     # SECURITY WARNING: don't run with debug turned on in production!
     DEBUG = False
@@ -96,10 +96,10 @@ if not settings.DEBUG:
     DATABASES = {
         'default': {
             'ENGINE': 'django.db.backends.mysql',
-            'NAME': 'ikmol$trydjango18',
-            'USER': 'ikmol',
-            'PASSWORD': 'adminroot',
-            'HOST': 'ikmol.mysql.pythonanywhere-services.com',
+            'NAME': '**$**',
+            'USER': '**',
+            'PASSWORD': '***',
+            'HOST': '***',
         }
     }
 
