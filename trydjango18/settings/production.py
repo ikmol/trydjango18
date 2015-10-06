@@ -31,8 +31,8 @@ if not settings.DEBUG:
 
     # Send email
     EMAIL_HOST = 'smtp.gmail.com'
-    EMAIL_HOST_USER = 'ikmolife@gmail.com'
-    EMAIL_HOST_PASSWORD = '11kbgyzedfcsgjk'
+    EMAIL_HOST_USER = 'youremail@gmail.com'
+    EMAIL_HOST_PASSWORD = 'pass'
     EMAIL_PORT = 587
     EMAIL_USE_TLS = True
 
@@ -95,8 +95,11 @@ if not settings.DEBUG:
 
     DATABASES = {
         'default': {
-            'ENGINE': 'django.db.backends.sqlite3',
-            'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+            'ENGINE': 'django.db.backends.mysql',
+            'NAME': 'ikmol$trydjango18',
+            'USER': 'ikmol',
+            'PASSWORD': 'adminroot',
+            'HOST': 'ikmol.mysql.pythonanywhere-services.com',
         }
     }
 
